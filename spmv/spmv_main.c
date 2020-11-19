@@ -39,9 +39,6 @@ void spmv(int r, const long* val, const int* idx, const long* x,
 int main( int argc, char* argv[] )
 {
 
-    printf("\n   *** SPMV BENCHMARK TEST ***\n\n");
-    printf("RESULTS OF THE TEST:\n");
-
 unsigned long cycles1, cycles2, instr2, instr1;
 int Run_Index;
 int Number_Of_Runs = NUMBER_OF_RUNS;
