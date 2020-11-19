@@ -1,0 +1,10 @@
+#=======================================================================
+# Makefrag for rv64ui tests
+#-----------------------------------------------------------------------
+
+drac_sc_tests = \
+	matmul \
+	histogram \
+	test \
+
+drac_smp_tests = $(addprefix drac-smp-, $(drac_sc_tests))
